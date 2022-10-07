@@ -14,7 +14,7 @@ I chose react.js to start this project because I like the features and its built
 
 ### Tailwind CSS
 
-I like Tailwind because it helps to not repeat yourself and really helps to build something faster. Love it! the only issue I see that is sometime the code get messy because of long class names but I like the power that it gives you.
+I like Tailwind because it helps to not repeat yourself and really helps to build something faster. Love it! the only issue I see that is sometime the code get messy because of long class names but I like the power that it gives you. everything is built from scratch. created reusable components in ui directory like Button, Icon Button etc.
 
 ### xstate for logic
 
