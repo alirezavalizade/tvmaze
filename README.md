@@ -2,11 +2,11 @@
 
 ![app-logic-overview](./public/app-logic-overview.gif?raw=true)
 
-## Tech stack
+## Tech stack - [live demo here](https://glittery-bonbon-7e37d8.netlify.app/)
 
 ### React
 
-I chose react.js to start this project because I like the features and its built-in state management power by context, but really, there is no difference for me which library is used in the project. They all have their own pros and cons. It's like you ask someone, "Apple or Orange?":D They are both good!
+I chose react.js to start this project because I like the features and its built-in state management power by context and hooks, but really, there is no difference for me which library is used in the project. They all have their own pros and cons. It's like you ask someone, "Apple or Orange?":D They are both good!
 
 ### Tailwind CSS
 
@@ -35,9 +35,14 @@ Thanks for tvmaze data, the browser couldn't handle render longs lists :) that's
 
 I included small test for machines. If I have more time I'd write more tests and cover all states and also components. Instead I decided to work on details :)
 
+### framer-motion for animations
+
 # Screenshot of the app
 
 ![app-screenshot](./public/screenshot.png?raw=true)
+![app-screenshot](./public/filter.png?raw=true)
+![app-screenshot](./public/show-detail.png?raw=true)
+![app-screenshot](./public/no-result-found.png?raw=true)
 
 # Getting Started with Create React App
 
