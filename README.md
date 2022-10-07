@@ -1,4 +1,4 @@
-# Application overview
+# Hey reviewer! This is applications logic created by state machines
 
 ![app-logic-overview](./public/app-logic-overview.gif?raw=true)
 
@@ -12,7 +12,7 @@ I chose react.js to start this project because I like the features and its built
 
 I like Tailwind because it helps to not repeat yourself and really helps to build something faster. Love it! the only issue I see that is sometime the code get messy because of long class names but I like the power that it gives you.
 
-### xstate
+### xstate for logic
 
 Using state machines to build the application logic I believe that the application logic should live outside of any UI components. Complexity is Xstate's breakfast :) its really easy to understand your code and lets you achieve something complex in an easy way. It resolved a lot of problems for me:
 
@@ -23,8 +23,21 @@ Using state machines to build the application logic I believe that the applicati
 - there won't be any bottom-up code!
 - machines are documents! You don't need to write documents any more.
 - it keeps the logic out of the components which makes easier to test your UI components as well!
+- it's independent of any ui library and thanks to the use ful hooks you can have optimistic ui updates which helps to have better performance in your application because your app wont get re-renders and the virtual-dom wont start get diffing process.
 
 NOTE: I let the inspector be active in the live application so that you can also see it live while working with the app.
+
+### react-virtualized
+
+Thanks for tvmaze data, the browser couldn't handle render longs lists :) that's why for long lists and data I choose virtualized list.
+
+### Jest for testing
+
+I included small test for machines. If I have more time I'd write more tests and cover all states and also components. Instead I decided to work on details :)
+
+# Screenshot of the app
+
+![app-screenshot](./public/screenshot.png?raw=true)
 
 # Getting Started with Create React App
 
