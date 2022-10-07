@@ -21,3 +21,11 @@ export function isViewingShowDetail(state) {
 export function isLoadingSearchResult(state) {
   return state.matches('viewing list.searching.loading');
 }
+
+export function isLoading(state) {
+  return (
+    isLoadingList(state) ||
+    isLoadingMoreData(state) ||
+    isLoadingSearchResult(state)
+  );
+}

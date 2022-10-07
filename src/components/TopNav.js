@@ -46,6 +46,8 @@ const TopNav = () => {
     matchers.isViewingShowDetail
   );
 
+  const isLoading = useMatchers(showsService, matchers.isLoading);
+
   const toggleFilters = useCallback(() => {
     showsService.send('TOGGLE_FILTERS');
   }, []);
@@ -66,6 +68,7 @@ const TopNav = () => {
             className="bg-white-900 text-black-900"
             onClick={toggleFilters}
             isDisabled={isViewingShowDetail}
+            isLoading={isLoading}
             variant="inverted"
           >
             {showFilters && !isViewingShowDetail ? (
