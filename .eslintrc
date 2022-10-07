@@ -1,0 +1,47 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "globals": {
+    "process": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-fragments": 0,
+    "no-param-reassign": 0,
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-uses-vars": [2],
+    "react/jsx-no-undef": "error",
+    "no-console": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": 0,
+    "import/no-unresolved": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react/destructuring-assignment": 0,
+    "no-plusplus": 0,
+    "jsx-a11y/media-has-caption": 0,
+    "import/extensions": 0,
+    "global-require": 0,
+    "import/order": 0,
+    "no-unreachable": 0
+  }
+}
