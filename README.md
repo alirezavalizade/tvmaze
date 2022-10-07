@@ -1,3 +1,7 @@
+# Live demo
+
+[Click here](https://glittery-bonbon-7e37d8.netlify.app/)
+
 # Hey reviewer! This is the applications logic created by state machines
 
 ![app-logic-overview](./public/app-logic-overview.gif?raw=true)
